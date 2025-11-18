@@ -1,0 +1,48 @@
+Sigmavalue Full Stack Developer Assignment
+굓굔굕굖 Assignment Details
+����� Technical Assignment: Build a Mini Real Estate Analysis
+Chatbot (React + Django)
+虌虇虈虉虊虋 Objective
+Build a web-based chatbot interface that accepts user queries related to real estate
+localities (e.g., “Analyze Wakad”), processes the provided Excel dataset, and returns:
+● 脥� A short natural-language summary (mocked or real using an LLM)
+● 脥� A chart (price trend, demand trend, etc.)
+● 脥� A filtered data table extracted from the Excel file
+괓괔 Provided
+A sample Excel file containing real estate data (year, area, price, demand, size, etc.)
+꺪꺫 Sample file:
+https://docs.google.com/spreadsheets/d/1BPFvRBLAFFLyQ1EDJ4ogXt8HYCUXhM80/edit
+?usp=sharing&ouid=106548111997272759849&rtpof=true&sd=true
+괘괙괚괛궨궩궪궫궬 Sample Queries
+● “Give me analysis of Wakad”
+● “Compare Ambegaon Budruk and Aundh demand trends”
+● “Show price growth for Akurdi over the last 3 years”
+ Requirements
+脥� Backend (Django + Python)
+● Accept file upload OR use a preloaded Excel dataset
+● Parse Excel and filter results based on area/user query
+● Return:
+○ Text summary (mock LLM output is allowed)
+○ JSON output for chart (price/demand per year)
+○ Filtered table data
+脥� Frontend (React + Bootstrap)
+● Chat-style or simple query input UI
+● Should display:
+○ Text-based summary
+○ Chart (Chart.js, Recharts, etc.)
+○ Filtered table
+ Bonus (Optional)
+● Integrate OpenAI API or any other LLM to generate real summaries
+● Add a "Download Data" option
+● Deploy on Vercel / Render / Heroku / Netlify etc.
+귬귭귮귴귲귳귵귶귷그 Submission Requirements
+● 脥� GitHub repository with complete code + README (mandatory)
+● 脥� Live demo link (if deployed)
+● 脥� Short demo video (1–2 minutes) showing how the assignment works
+(compulsory)
+衜衝衞衟衠衡 Evaluation Criteria
+● Code structure & readability
+● UI/UX and backend integration
+● Accuracy of Excel data processing
+● Chart clarity and correctness
+● Bonus points for LLM integration & deployment 
